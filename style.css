@@ -1,0 +1,123 @@
+body{
+    background-color: #000;
+}
+
+.slidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.slidebar__navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.slidebar__navigation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.slidebar__navigation .logo img{
+    width: 80px;
+
+}
+
+.slidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.slidebar ul li{
+    padding: 10px 0;
+}
+
+.slidebar nav ul a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca_topo{
+    display: flex;
+    justify-content: space-between;
+    color: #b3b3b3;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    height: 280px;
+}
+
+.biblioteca__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #242424;
+    border-radius: 5px;
+    padding: 20px;
+    height: 75px;
+}
+
+.biblioteca__card p{
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__card span{
+    color: #e6e6e6;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__card button{
+    color: black;
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__informs{
+    padding: 15px;
+}
+
+.biblioteca__informs a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__idioma{
+    padding: 15px;
+}
+
+.biblioteca__idioma button{
+    color: #e6e6e6;
+    background-color: #242424;
+    border: solid 1px #e6e6e6;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+
+
