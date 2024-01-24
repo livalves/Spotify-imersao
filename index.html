@@ -18,46 +18,63 @@
                     <img src="/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search"></span>
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <nav class="slidebar__navigation">
-            <div class="biblioteca">
-                <div class="biblioteca_topo">
-                    <div class="titulo">
-                        <span class="fa fa-bookmark"></span>
-                        <span>Sua Biblioteca</span>
+
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-bookmark"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                        <span class="text title">Crie sua primeira playlist</span>
+                        <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                        <button class="section-playlist__button">
+                            <span>Criar Playlist</span>
+                        </button>
+                    <!--
+                    <div>
+                        <span class="text title">Que tal seguir um podcast novo?</span>
+                        <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+                        <button class="section-playlist__button">
+                            <span>Explore podcasts</span>
+                        </button>
                     </div>
-                    <div class="icone">
-                        <span class="fa fa-plus"></span>
-                    </div>
+                    -->
                 </div>
-                <div class="biblioteca__cards">
-                    <div class="biblioteca__card">
-                        <p>Crie sua primeira playlist</p>
-                        <span>É fácil, vamos te ajudar.</span>
-                        <button>Criar Playlist</button>
-                    </div>
-                    <div class="biblioteca__card">
-                        <p>Que tal seguir um podcast novo?</p>
-                        <span>Avisaremos você sobre novos episódios.</span>
-                        <button>Explore podcasts</button>
-                    </div>
-                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+
+            <!-- 
                 <div class="biblioteca__informs">
                     <a href="http://" target="_blank" rel="noopener noreferrer">Legal</a>
                     <a href="http://" target="_blank" rel="noopener noreferrer">Centro de Privacidade</a>
@@ -69,12 +86,8 @@
                     <a href="http://" target="_blank" rel="noopener noreferrer">Your Privacy Choices</a>
                     <a href="http://" target="_blank" rel="noopener noreferrer">Cookies</a>
                 </div>
-                <div class="biblioteca__idioma">
-                    <button>Português do Brasil</button>
-                </div>
-                
-            </div>
-        </nav>
+            -->
+        </div>
     </div>
 
     <main>
