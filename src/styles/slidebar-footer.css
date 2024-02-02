@@ -91,21 +91,23 @@ body{
 
 .section-playlist{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
-    background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 0px;
-    padding: 16px 20px;
-    border-radius: 10px;
+    height: 25vh;
+    overflow: auto;
 }
 
 .section-playlist .section-playlist__content{
     display: flex;
     flex-direction: column;
+    background-color: #242424;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
 }
 
 .section-playlist__content .text{
